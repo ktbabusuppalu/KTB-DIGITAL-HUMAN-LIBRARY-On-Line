@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTB HUMAN DIGITAL LIBRARY On-Line (KHDL On-line)</title>
+
+    <!-- Standard Meta Tags -->
+    <meta name="description" content="KHDL On-line: 15-minute 1-on-1 peer discussions strictly focused on digital product creations, technical scope, and skill expansion by KTB Digital Services, Bengaluru.">
+    <meta name="author" content="KTB Digital Services, Bengaluru">
+
+    <!-- Open Graph / Facebook / WhatsApp Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="KTB HUMAN DIGITAL LIBRARY On-Line (KHDL On-line)">
+    <meta property="og:description" content="Join 15-minute 1-on-1 digital product discussion sessions on Nov 1st. Organized strictly by KTB Digital Services, Bengaluru.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:site_name" content="KHDL On-Line Platform">
+
+    <!-- Pinterest Rich Pin Meta Tags -->
+    <meta property="og:url" content="https://ktbdigitalservices.github.io/">
+    <meta name="pinterest-rich-pin" content="true">
+    <meta property="article:author" content="KTB Digital Services, Bengaluru">
+    <meta property="article:publisher" content="KTB Digital Services, Bengaluru">
+    <meta property="og:image:alt" content="KTB Digital Services Official Logo">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 15px;
+            color: #2b2b2b;
+        }
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .header-logo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .header-logo img {
+            max-width: 160px;
+            height: auto;
+        }
+        h1 {
+            color: #0d47a1;
+            font-size: 18px;
+            text-align: center;
+            margin: 5px 0;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .overview-box {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1976d2;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        .section-title {
+            background: #1976d2;
+            color: #ffffff;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        .form-group {
+            margin-bottom: 14px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 13px;
+        }
+        .radio-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 5px;
+        }
+        .radio-label {
+            font-size: 13px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .payment-card {
+            background-color: #f1f8e9;
+            border: 2px dashed #689f38;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .fee-badge {
+            display: inline-block;
+            background-color: #d32f2f;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 12px;
+            border-radius: 15px;
+            margin-bottom: 8px;
+        }
+        .qr-img {
+            max-width: 180px;
+            width: 100%;
+            height: auto;
+            border: 3px solid #ffffff;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .tc-box {
+            background-color: #fff8e1;
+            border: 1px solid #ffe082;
+            padding: 12px;
+            border-radius: 5px;
+            max-height: 180px;
+            overflow-y: auto;
+            font-size: 11px;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+        .tc-box ol {
+            padding-left: 15px;
+            margin: 0;
+        }
+        .consent-check {
+            background: #ffebee;
+            border: 1px solid #ffcdd2;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #b71c1c;
+            display: flex;
+            gap: 6px;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn-submit {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 14px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- 1. KTB LOGO IMAGE CODE LINE -->
+    <div class="header-logo">
+        <img src="logo.png" alt="KTB Digital Service Logo">
+    </div>
+
+    <h1>KTB HUMAN DIGITAL LIBRARY On-Line</h1>
+    <div class="subtitle">(KHDL On-line) — DIGITAL PRODUCTS DISCUSSION ONLY</div>
+
+    <div class="overview-box">
+        <strong>📌 Overview:</strong> KHDL On-line is an exclusive 1-on-1 discussion platform hosted by <strong>KTB Digital Services, Bengaluru</strong> on <strong>Nov 1st</strong>. 15-minute sessions strictly focused on digital product creations and technical skills expansion.
+    </div>
+
+    <form id="khdlForm" onsubmit="sendRegistration(event)">
+        
+        <!-- SECTION 1: PARTICIPANT DETAILS -->
+        <div class="section-title">1. Participant Information</div>
+        
+        <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="fullName" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Age (6 years and above) *</label>
+            <input type="number" id="age" min="6" max="120" placeholder="Enter age" required>
+        </div>
+
+        <div class="form-group">
+            <label>Gender *</label>
+            <div class="radio-group">
+                <label class="radio-label"><input type="radio" name="gender" value="Male" required> Male</label>
+                <label class="radio-label"><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+        </div>
+
+        <!-- SECTION 2: SESSION & LANGUAGE -->
+        <div class="section-title">2. Session Category & Language</div>
+
+        <div class="form-group">
+            <label>Session Category *</label>
+            <select id="sessionType" required>
+                <option value="">-- Select Session --</option>
+                <option value="Session A: Male To Male (MTM)">Session A: Male To Male (MTM)</option>
+                <option value="Session B: Female To Female (FTF)">Session B: Female To Female (FTF)</option>
+                <option value="Session C: Female To Male / Male To Female (FTM/MTF)">Session C: Female To Male / Male To Female (FTM/MTF)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Preferred Language *</label>
+            <select id="language" required>
+                <option value="">-- Select Language --</option>
+                <option value="KHDL-Kannada">KHDL-Kannada</option>
+                <option value="KHDL-TELUGU">KHDL-TELUGU</option>
+                <option value="KHDL-TAMIL">KHDL-TAMIL</option>
+                <option value="KHDL-MALAYALAM">KHDL-MALAYALAM</option>
+                <option value="KHDL-HINDI">KHDL-HINDI</option>
+                <option value="KHDL-ENGLISH">KHDL-ENGLISH</option>
+            </select>
+        </div>
+
+        <!-- SECTION 3: TIMINGS & SLOTS -->
+        <div class="section-title">3. Schedule Selection (Nov 1st)</div>
+
+        <div class="form-group">
+            <label>Select Preferred Slot *</label>
+            <select id="timeSlot" required>
+                <option value="">-- Select Time Slot --</option>
+                <optgroup label="EARLY HOURS">
+                    <option value="Early - Slot 1 (5:00 AM - 5:15 AM)">Slot 1: 5:00 AM – 5:15 AM</option>
+                    <option value="Early - Slot 2 (6:00 AM - 6:15 AM)">Slot 2: 6:00 AM – 6:15 AM</option>
+                    <option value="Early - Slot 3 (7:00 AM - 7:15 AM)">Slot 3: 7:00 AM – 7:15 AM</option>
+                </optgroup>
+                <optgroup label="MORNING HOURS">
+                    <option value="Morning - Slot 1 (9:00 AM - 9:15 AM)">Slot 1: 9:00 AM – 9:15 AM</option>
+                    <option value="Morning - Slot 2 (10:00 AM - 10:15 AM)">Slot 2: 10:00 AM – 10:15 AM</option>
+                </optgroup>
+                <optgroup label="NOON HOURS">
+                    <option value="Noon - Slot 1 (11:00 AM - 11:15 AM)">Slot 1: 11:00 AM – 11:15 AM</option>
+                    <option value="Noon - Slot 2 (12:00 PM - 12:15 PM)">Slot 2: 12:00 PM – 12:15 PM</option>
+                </optgroup>
+                <optgroup label="EVENING HOURS">
+                    <option value="Evening - Slot 1 (4:00 PM - 4:15 PM)">Slot 1: 4:00 PM – 4:15 PM</option>
+                    <option value="Evening - Slot 2 (5:00 PM - 5:15 PM)">Slot 2: 5:00 PM – 5:15 PM</option>
+                </optgroup>
+                <optgroup label="NIGHT HOURS">
+                    <option value="Night - Slot 1 (7:00 PM - 7:15 PM)">Slot 1: 7:00 PM – 7:15 PM</option>
+                    <option value="Night - Slot 2 (8:00 PM - 8:15 PM)">Slot 2: 8:00 PM – 8:15 PM</option>
+                    <option value="Night - Slot 3 (9:00 PM - 9:15 PM)">Slot 3: 9:00 PM – 9:15 PM</option>
+                </optgroup>
+                <optgroup label="LATE NIGHT HOURS">
+                    <option value="Late Night - Slot 1 (10:00 PM - 10:15 PM)">Slot 1: 10:00 PM – 10:15 PM</option>
+                    <option value="Late Night - Slot 2 (11:00 PM - 11:15 PM)">Slot 2: 11:00 PM – 11:15 PM</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Digital Product Topic Focus *</label>
+            <input type="text" id="topic" placeholder="e.g., Mobile Apps, Web Tech, E-books" required>
+        </div>
+
+        <!-- SECTION 4: PAYMENT SECTION & QR CODE -->
+        <div class="section-title">4. Fee Payment & QR Code</div>
+        
+        <div class="payment-card">
+            <div class="fee-badge">Mandatory Fee: INR 199.00</div>
+            <p style="margin: 5px 0; font-size: 12px;">Scan & Pay using GPay, PhonePe, Paytm, BHIM:</p>
+            
+            <!-- 2. PAYMENT QR CODE IMAGE LINE -->
+            <img src="qr-code.png" alt="BHIM UPI QR Code" class="qr-img">
+            
+            <div class="form-group" style="text-align: left; margin-top: 10px;">
+                <label>Payment UTR / Ref Number *</label>
+                <input type="text" id="utr" placeholder="Enter 12-digit UPI UTR Number" required>
+            </div>
+        </div>
+
+        <!-- SECTION 5: TERMS AND CONDITIONS -->
+        <div class="section-title">5. Terms and Conditions (T&C)</div>
+
+        <div class="tc-box">
+            <ol>
+                <li><strong>Eligibility:</strong> Discussion strictly 1-on-1 between matched individuals (Age 6+).</li>
+                <li><strong>Matching Authority:</strong> Matching individuals 1-to-1 is solely the decision of KTB Digital Services, Bengaluru. No compromise or custom pairing request is possible at all times.</li>
+                <li><strong>Scope:</strong> Personal and official discussions strictly related to Digital Products only.</li>
+                <li><strong>Strict Moderation:</strong> Off-topic or inappropriate subjects result in immediate termination without warning or refund.</li>
+                <li><strong>Registration:</strong> Strictly via email to ktbdigitalservices@gmail.com.</li>
+                <li><strong>Fee:</strong> INR 199.00 mandatory per discussion slot.</li>
+                <li><strong>Payment Cut-off:</strong> Payment must be completed 72 hours before the slot time.</li>
+                <li><strong>Schedule Change:</strong> Time changes permitted only if requested 72 hours earlier.</li>
+                <li><strong>Refund Policy:</strong> No refund possible once session has started or been attended.</li>
+                <li><strong>Meeting Link:</strong> Link dispatched 48 hours prior to discussion.</li>
+                <li><strong>Privacy:</strong> Strictly prohibited from sharing phone numbers, emails, or files during sessions without prior permission.</li>
+                <li><strong>Authority:</strong> Conducted strictly under KTB Digital Services, Bengaluru.</li>
+            </ol>
+        </div>
+
+        <div class="consent-check">
+            <input type="checkbox" id="consent" required style="margin-top: 2px;">
+            <label for="consent" style="margin:0; cursor:pointer;">
+                I accept all 12 Terms & Conditions and agree that 1-to-1 matching is solely governed by KTB Digital Services, Bengaluru with no compromise allowed.
+            </label>
+        </div>
+
+        <div class="btn-container">
+            <button type="submit" class="btn-submit">✉️ SUBMIT REGISTRATION VIA EMAIL</button>
+        </div>
+    </form>
+
+    <div class="footer">
+        Organized by <strong>KTB Digital Services, Bengaluru</strong><br>
+        Email: <strong>ktbdigitalservices@gmail.com</strong>
+    </div>
+</div>
+
+<script>
+    function sendRegistration(e) {
+        e.preventDefault();
+        
+        var name = document.getElementById('fullName').value;
+        var age = document.getElementById('age').value;
+        var gender = document.querySelector('input[name="gender"]:checked').value;
+        var session = document.getElementById('sessionType').value;
+        var lang = document.getElementById('language').value;
+        var slot = document.getElementById('timeSlot').value;
+        var topic = document.getElementById('topic').value;
+        var utr = document.getElementById('utr').value;
+
+        var bodyText = "KHDL On-Line Registration Details:\n\n" +
+            "1. Name: " + name + "\n" +
+            "2. Age: " + age + "\n" +
+            "3. Gender: " + gender + "\n" +
+            "4. Session: " + session + "\n" +
+            "5. Language: " + lang + "\n" +
+            "6. Slot: " + slot + "\n" +
+            "7. Topic: " + topic + "\n" +
+            "8. Fee Paid: INR 199.00\n" +
+            "9. UPI UTR ID: " + utr + "\n\n" +
+            "I agree to all 12 Terms & Conditions and accept that 1-to-1 matching is solely decided by KTB Digital Services, Bengaluru.";
+
+        var link = "mailto:ktbdigitalservices@gmail.com?subject=" + 
+            encodeURIComponent("KHDL Registration - " + name) + 
+            "&body=" + encodeURIComponent(bodyText);
+
+        window.location.href = link;
+    }
+</script>
+
+</body>
+</html>
